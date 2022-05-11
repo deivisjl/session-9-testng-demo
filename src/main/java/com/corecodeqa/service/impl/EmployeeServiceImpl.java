@@ -12,7 +12,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public void createEmployee(Employee employee) {
-        /* Nuevo commit */
         employee.setState(Employee.State.ACTIVE);
         saveEmployee(employee);
     }
